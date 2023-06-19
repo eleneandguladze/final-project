@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+$primary-color: #5418b4;
+$primary-color-variant: #4fb7d6;
+$secondary-color: #b1376e;
+$white-color: #fff;
+$light-color: rgba($white-color, 0.7);
+$black-color: #0c031b;
+$dark-color: rgba($black-color, 0.7);
+$success-color: #54eb72;
+$container-lg: 82%;
+$container-md: 90%;
+
+body {
+    background-color: $primary-color;
+}
