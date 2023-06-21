@@ -375,7 +375,7 @@ header .container .header__content p {
   left: 0;
   border-radius: 1rem;
 }
-#specialists .container article:hover .specialist__socials, #specialists .container article:hover .specialist__whatsap {
+#specialists .container article:hover .specialist__socials {
   opacity: 1;
   visibility: visible;
 }
@@ -434,22 +434,4 @@ header .container .header__content p {
 #specialists .container article .specialist__socials a:hover {
   background: #5418b4;
   color: #fff;
-}
-#specialists .container article .specialist__whatsapp {
-  background: #54eb72;
-  color: #fff;
-  position: absolute;
-  left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
-  bottom: 30%;
-  padding: 1rem;
-  border-radius: 50%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transition: all 1s 400ms ease;
-  transition: all 1s 400ms ease;
 }/*# sourceMappingURL=styles.css.map */
