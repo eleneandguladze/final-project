@@ -1,0 +1,11 @@
+#testimonials {
+    width: $container-lg;
+
+    .container {
+        article {
+            @include gradientBackgraound;
+            padding: 1.5rem 2rem;
+            border-radius: 1rem;
+        }
+    }
+}
