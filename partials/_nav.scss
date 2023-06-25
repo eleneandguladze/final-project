@@ -26,10 +26,11 @@ nav {
             font-weight: 400;
             font-size: 0.9rem;
         }
-        .nav__logo h3 {
-            color: $white-color;
-
-        }
+        // .nav__logo {
+        //     color: $white-color;
+        //     font-weight: 400;
+        //     font-size: 0.9rem;
+        // }
     }
 }
 
@@ -78,6 +79,10 @@ nav {
 
                     &:nth-child(5) {
                         animation-delay: 800ms;
+                    }
+
+                    &:nth-child(6) {
+                        animation-delay: 1000ms;
                     }
                 
 

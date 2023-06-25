@@ -6,26 +6,26 @@
 
         .info {
             p {
-                margin: 0.5rem 0 2rem;
+                margin: 8px 0 128px;
             }
 
             article {
                 display: flex;
-                gap: 1.5rem;
-                margin-bottom: 1.5rem;
+                gap: 24px;
+                margin-bottom: 24px;
 
                 small {
-                    margin-top: 0.4rem;
+                    margin-top: 6.4px;
                     display: block;
                 }
 
                 .info__icon {
                     background: $secondary-color;
                     color: $white-color;
-                    padding: 0.8rem;
+                    padding: 12.8px;
                     height: fit-content;
                     border-radius: 50%;
-                    font-size: 1.2rem;
+                    font-size: 24px;
                 }
             }
         }
@@ -34,11 +34,11 @@
         form {
             display: flex;
             flex-direction: column;
-            gap: 1.4rem;
+            gap: 22.4px;
 
             .form__group {
                 label {
-                    font-size: 0.85rem;
+                    font-size: 13.6px;
                     margin-bottom: 0.4rem;
                     display: inline-block;
                     font-weight: 600;
@@ -46,7 +46,7 @@
 
                 input, textarea, select {
                     background: $white-color;
-                    padding: 0.85rem 1rem;
+                    padding: 13.6px;
                     display: block;
                     width: 100%;
                     border-radius: 0.4rem;

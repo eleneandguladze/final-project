@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Castoro&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -11,11 +11,11 @@
 }
 
 body {
-  background-color: #5418b4;
+  background-color: #4e054b;
 }
 
 body {
-  font-family: "Roboto", sans-serif;
+  font-family: "Castoro", sans-serif;
   line-height: 1.5;
   color: rgba(12, 3, 27, 0.7);
   background-color: rgba(79, 183, 214, 0.1);
@@ -81,14 +81,14 @@ section > p {
   width: fit-content;
   padding: 0.75rem 1rem;
   border-radius: 0.4rem;
-  background-color: #5418b4;
+  background-color: #4e054b;
   color: #fff;
   cursor: pointer;
   -webkit-transition: all 400ms ease;
   transition: all 400ms ease;
 }
 .button-primary:hover {
-  background: #874be7;
+  background: #ae0ba7;
   -webkit-box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
           box-shadow: 0 1rem 1.6rem rgba(12, 3, 27, 0.15);
 }
@@ -113,7 +113,7 @@ nav {
   z-index: 10;
   display: grid;
   place-items: center;
-  background: linear-gradient(135deg, #5418b4, #4fb7d6);
+  background: linear-gradient(135deg, #4e054b, #4fb7d6);
   color: #fff;
   -webkit-box-shadow: 0 1rem 1rem rgba(12, 3, 27, 0.1);
           box-shadow: 0 1rem 1rem rgba(12, 3, 27, 0.1);
@@ -152,9 +152,6 @@ nav .container a {
   color: #fff;
   font-weight: 400;
   font-size: 0.9rem;
-}
-nav .container .nav__logo h3 {
-  color: #fff;
 }
 
 @media screen and (max-width: 1024px) {
@@ -208,6 +205,10 @@ nav .container .nav__logo h3 {
     -webkit-animation-delay: 800ms;
             animation-delay: 800ms;
   }
+  nav .container ul li:nth-child(6) {
+    -webkit-animation-delay: 1000ms;
+            animation-delay: 1000ms;
+  }
   @-webkit-keyframes flipNavItems {
     0% {
       -webkit-transform: rotateX(90deg);
@@ -244,7 +245,7 @@ nav .container .nav__logo h3 {
   }
 }
 header {
-  background: linear-gradient(135deg, #5418b4, #4fb7d6);
+  background: linear-gradient(135deg, #4e054b, #4fb7d6);
   color: #fff;
   height: 100vh;
   display: grid;
@@ -311,7 +312,7 @@ header .container .header__content p {
   gap: 2rem;
 }
 #services .container article {
-  background: linear-gradient(135deg, #5418b4, #4fb7d6);
+  background: linear-gradient(135deg, #4e054b, #4fb7d6);
   color: #fff;
   padding: 1.5rem;
   border-radius: 1rem;
@@ -404,7 +405,7 @@ header .container .header__content p {
   position: absolute;
   top: 0;
   left: -100%;
-  background: linear-gradient(135deg, rgba(84, 24, 180, 0.8), rgba(79, 183, 214, 0.8));
+  background: linear-gradient(135deg, rgba(78, 5, 75, 0.8), rgba(79, 183, 214, 0.8));
   border-radius: 50%;
   -webkit-transition: all 1s ease;
   transition: all 1s ease;
@@ -432,7 +433,7 @@ header .container .header__content p {
 }
 #specialists .container article .specialist__socials a {
   background: #fff;
-  color: #5418b4;
+  color: #4e054b;
   padding: 0.4rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -443,7 +444,7 @@ header .container .header__content p {
   transition: all 400ms ease;
 }
 #specialists .container article .specialist__socials a:hover {
-  background: #5418b4;
+  background: #4e054b;
   color: #fff;
 }
 
@@ -464,7 +465,7 @@ header .container .header__content p {
   margin-bottom: 4rem;
 }
 .swiper .swiper-wrapper .swiper-slide {
-  background: linear-gradient(135deg, #5418b4, #4fb7d6);
+  background: linear-gradient(135deg, #4e054b, #4fb7d6);
   color: #fff;
   padding: 1.5rem 2rem;
   border-radius: 1rem;
@@ -497,7 +498,7 @@ header .container .header__content p {
   overflow: hidden;
 }
 .swiper .swiper-pagination-bullet {
-  background: #5418b4;
+  background: #4e054b;
 }
 
 @media screen and (max-width: 600px) {
@@ -511,28 +512,28 @@ header .container .header__content p {
   gap: 6%;
 }
 #appointment .container .info p {
-  margin: 0.5rem 0 2rem;
+  margin: 8px 0 128px;
 }
 #appointment .container .info article {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
+  gap: 24px;
+  margin-bottom: 24px;
 }
 #appointment .container .info article small {
-  margin-top: 0.4rem;
+  margin-top: 6.4px;
   display: block;
 }
 #appointment .container .info article .info__icon {
   background: #b1376e;
   color: #fff;
-  padding: 0.8rem;
+  padding: 12.8px;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
   border-radius: 50%;
-  font-size: 1.2rem;
+  font-size: 24px;
 }
 #appointment .container form {
   display: -webkit-box;
@@ -542,17 +543,17 @@ header .container .header__content p {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 1.4rem;
+  gap: 22.4px;
 }
 #appointment .container form .form__group label {
-  font-size: 0.85rem;
+  font-size: 13.6px;
   margin-bottom: 0.4rem;
   display: inline-block;
   font-weight: 600;
 }
 #appointment .container form .form__group input, #appointment .container form .form__group textarea, #appointment .container form .form__group select {
   background: #fff;
-  padding: 0.85rem 1rem;
+  padding: 13.6px;
   display: block;
   width: 100%;
   border-radius: 0.4rem;
