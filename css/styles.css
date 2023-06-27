@@ -643,4 +643,53 @@ footer .container article .footer__socials {
         -ms-flex-pack: center;
             justify-content: center;
   }
+}
+#awards {
+  padding: 2rem;
+}
+#awards .slider-wrapper {
+  position: relative;
+  max-width: 48rem;
+  margin: 0 auto;
+}
+#awards .slider-wrapper .slider {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  aspect-ratio: 16/9;
+  overflow: auto;
+  -ms-scroll-snap-type: x mandatory;
+      scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-box-shadow: 0 1.5rem 3rem -0.75rem;
+          box-shadow: 0 1.5rem 3rem -0.75rem;
+  border-radius: 0.5rem;
+}
+#awards .slider-wrapper .slider img {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 100%;
+          flex: 1 0 100%;
+  scroll-snap-align: start;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+#awards .slider-wrapper .slider-nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 1rem;
+     -moz-column-gap: 1rem;
+          column-gap: 1rem;
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+  z-index: 1;
+}
+#awards .slider-wrapper .slider-nav a {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: #4e054b;
 }/*# sourceMappingURL=styles.css.map */
