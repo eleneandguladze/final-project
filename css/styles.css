@@ -647,6 +647,9 @@ footer .container article .footer__socials {
 #awards {
   padding: 2rem;
 }
+#awards ::-webkit-scrollbar {
+  display: none;
+}
 #awards .slider-wrapper {
   position: relative;
   max-width: 48rem;

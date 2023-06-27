@@ -1,5 +1,8 @@
 #awards {
     padding: 2rem;
+    ::-webkit-scrollbar {
+        display: none;
+    }
 
     .slider-wrapper {
         position: relative;
