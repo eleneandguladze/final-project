@@ -1,3 +1,10 @@
+#testimonials {
+    h2 {
+        font-weight: 400;
+        font-size: 40px;
+    }
+}
+
 .swiper {
     width: $container-lg;
 
@@ -11,6 +18,7 @@
             cursor: default;
             font-size: 14.4px;
 
+            
             p {
                 margin-bottom: 24px;
 

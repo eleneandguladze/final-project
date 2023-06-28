@@ -311,6 +311,10 @@ header .container .header__content p {
     line-height: 22.4px;
   }
 }
+#services h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
 #services .container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -368,6 +372,10 @@ header .container .header__content p {
   #services .container article div h4 {
     margin-top: 12.8px;
   }
+}
+#specialists h2 {
+  font-weight: 400;
+  font-size: 40px;
 }
 #specialists .container {
   width: 68%;
@@ -463,6 +471,11 @@ header .container .header__content p {
     grid-template-columns: 1fr;
   }
 }
+#testimonials h2 {
+  font-weight: 400;
+  font-size: 40px;
+}
+
 .swiper {
   width: 82%;
 }
@@ -515,6 +528,10 @@ header .container .header__content p {
   display: grid;
   grid-template-columns: 47% 47%;
   gap: 6%;
+}
+#appointment .container .info h2 {
+  font-weight: 400;
+  font-size: 40px;
 }
 #appointment .container .info p {
   margin: 8px 0 128px;
@@ -651,6 +668,10 @@ footer .container article .footer__socials {
 }
 #awards {
   padding: 32px;
+}
+#awards h2 {
+  font-weight: 400;
+  font-size: 40px;
 }
 #awards ::-webkit-scrollbar {
   display: none;
