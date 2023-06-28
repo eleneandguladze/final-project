@@ -2,29 +2,29 @@
     width: $container-lg;
 
     .swiper-wrapper {
-        margin-bottom: 4rem;
+        margin-bottom: 64px;
         
         .swiper-slide {
             @include gradientBackgraound;
-            padding: 1.5rem 2rem;
-            border-radius: 1rem;
+            padding: 24px 32px;
+            border-radius: 16px;
             cursor: default;
-            font-size: 0.9rem;
+            font-size: 14.4px;
 
             p {
-                margin-bottom: 1.5rem;
+                margin-bottom: 24px;
 
             }
 
             .client {
                 display: flex;
                 align-items: center;
-                gap: 1rem;
+                gap: 16px;
 
 
                 
                 .avatar {
-                    width: 2.5rem;
+                    width: 40px;
                     aspect-ratio: 1/1;
                     border-radius: 50%;
                     overflow: hidden;
@@ -42,7 +42,7 @@
     .swiper {
         .swiper-wrapper {
             .swiper-slide {
-                padding: 1.5rem;
+                padding: 24px;
             }
         }
     }

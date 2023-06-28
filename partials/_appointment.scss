@@ -39,7 +39,7 @@
             .form__group {
                 label {
                     font-size: 13.6px;
-                    margin-bottom: 0.4rem;
+                    margin-bottom: 6.4px;
                     display: inline-block;
                     font-weight: 600;
                 }
@@ -49,7 +49,7 @@
                     padding: 13.6px;
                     display: block;
                     width: 100%;
-                    border-radius: 0.4rem;
+                    border-radius: 6.4px;
                     resize: none;
                     appearance: none;
                 }
@@ -62,7 +62,7 @@
     #appointment {
         .container {
             grid-template-columns: 1fr;
-            gap: 2rem;
+            gap: 32px;
 
             .info {
                 h2, 

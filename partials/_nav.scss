@@ -1,12 +1,12 @@
 nav {
     width: 100vw;
-    height: 5rem;
+    height: 80px;
     position: fixed;
     z-index: 10;
     display: grid;
     place-items: center;
     @include gradientBackgraound;
-    box-shadow: 0 1rem 1rem rgba($black-color, 0.1);
+    box-shadow: 0 16px 16px rgba($black-color, 0.1);
     
     .container {
         display: flex;
@@ -15,7 +15,7 @@ nav {
 
         ul {
             display: flex;
-            gap: 3rem;
+            gap: 48px;
             align-items: center;
         }
         button {
@@ -24,13 +24,13 @@ nav {
         a {
             color: $white-color;
             font-weight: 400;
-            font-size: 0.9rem;
+            font-size: 14.4px;
         }
-        // .nav__logo {
-        //     color: $white-color;
-        //     font-weight: 400;
-        //     font-size: 0.9rem;
-        // }
+        .nav__logo {
+            color: $white-color;
+            font-weight: 400;
+            font-size: 14.4px;
+        }
     }
 }
 
@@ -41,7 +41,7 @@ nav {
                 display: inline-block;
                 background: transparent;
                 color: $white-color;
-                font-size: 2rem;
+                font-size: 32px;
                 cursor: pointer;
 
                 &#close__nav-btn {
@@ -52,7 +52,7 @@ nav {
             ul {
                 position: fixed;
                 right: 5%;
-                top: 5rem;
+                top: 80px;
                 flex-direction: column;
                 align-items: flex-start;
                 gap: 0;
@@ -100,15 +100,13 @@ nav {
                         color: $white-color;
                         height: 100%;
                         display: block;
-                        padding: 1.5rem 2rem;
+                        padding: 24px 32px;
                         border-radius: 0;
                         background: linear-gradient($primary-color-variant, darken($primary-color-variant, 12%));
                         
                         &.button {
                             background: $secondary-color;
-
                         }
-
                     }
                 }
             }

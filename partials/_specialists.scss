@@ -3,12 +3,12 @@
         width: 68%;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 2rem;
+        gap: 32px;
 
         article {
             background: $white-color;
-            border-radius: 1rem;
-            box-shadow: 0 1.5rem 1.5rem rgba($black-color, 1.0);
+            border-radius: 16px;
+            box-shadow: 0 24px 24px rgba($black-color, 1.0);
             position: relative;
             transition: all 700ms ease;
 
@@ -17,7 +17,7 @@
 
                 .specialist__image::before {
                     left: 0;
-                    border-radius: 1rem;
+                    border-radius: 16px;
                 }
 
                 .specialist__socials {
@@ -27,9 +27,9 @@
             }
 
             .specialist__image {
-                height: 20rem;
+                height: 320px;
                 position: relative;
-                border-radius: 1rem;
+                border-radius: 16px;
                 overflow: hidden;
 
                 &::before {
@@ -47,17 +47,17 @@
             }
 
             .specialist__details {
-                margin: 1.5rem 0;
+                margin: 24px 0;
                 text-align: center;
             }
 
             .specialist__socials {
                 position: absolute;
-                top: 1.2rem;
-                right: 1.2rem;
+                top: 19.2px;
+                right: 19.2px;
                 display: flex;
                 flex-direction: column;
-                gap: 1rem;
+                gap: 16px;
                 opacity: 0;
                 visibility: hidden;
                 transition: all 1s 400ms ease;
@@ -65,9 +65,9 @@
                 a {
                     background: $white-color;
                     color: $primary-color;
-                    padding: 0.4rem;
+                    padding: 6.4px;
                     display: flex;
-                    font-size: 0.8rem;
+                    font-size: 12.8px;
                     border-radius: 50%;
                     transition: all 400ms ease;
 

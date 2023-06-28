@@ -6,7 +6,7 @@ header {
     overflow: hidden;
 
     .container {
-        margin-top: 3rem;
+        margin-top: 48px;
         display: grid;
         grid-template-columns: 46% 46%;
         gap: 8%;
@@ -15,15 +15,15 @@ header {
 
         .header__content {
             h1 {
-                font-size: 3.5rem;
+                font-size: 56px;
                 line-height: 1.1;
                 letter-spacing: -3px;
                 font-weight: 300;
             }
             p {
-                margin: 1rem 0 2rem;
+                margin: 16px 0 32px;
                 color: $light-color;
-                font-size: 1.1rem;
+                font-size: 17.6px;
             }
         }
     }
@@ -32,12 +32,12 @@ header {
 @media screen and (max-width: 1024px) {
     header {
         height: 60vh;
-        gap: 1rem;
+        gap: 16px;
 
         .container {
             .header__content {
                 h1 {
-                    font-size: 2.2rem;
+                    font-size: 35.2px;
                 }
             }
         }
@@ -47,15 +47,15 @@ header {
 @media screen and (max-width: 600px) {
     header {
         height: 100vh;
-        padding-top: 3rem;
+        padding-top: 48px;
 
         .container {
             grid-template-columns: 1fr;
             text-align: center;
 
             p {
-                margin: 0.8rem 0 1.5rem;
-                line-height: 1.4rem;
+                margin: 12.8px 0 24px;
+                line-height: 22.4px;
             }
         }
     }

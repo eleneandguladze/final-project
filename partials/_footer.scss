@@ -1,15 +1,15 @@
 footer {
     background: $black-color;
     color: $light-color;
-    padding-top: 6rem;
-    margin-top: 6rem;
-    padding-bottom: 2rem;
+    padding-top: 96px;
+    margin-top: 96px;
+    padding-bottom: 32px;
 
     .container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        gap: 5rem;
-        font-size: 0.85rem;
+        gap: 80px;
+        font-size: 13.6px;
 
         a {
             color: $light-color;
@@ -26,12 +26,12 @@ footer {
         article {
             display: flex;
             flex-direction: column;
-            gap: 1rem;
+            gap: 16px;
 
             & > div {
                 display: flex;
                 align-items: center;
-                gap: 0.6rem;
+                gap: 9.6px;
             }
 
             & > h3 {
@@ -39,8 +39,8 @@ footer {
             }
 
             .footer__socials {
-                gap: 1rem;
-                font-size: 1.2rem;
+                gap: 16px;
+                font-size: 19.2px;
             }
         }
     }
@@ -49,7 +49,7 @@ footer {
 @media screen and (max-width: 1024px) {
     footer {
         .container {
-            gap: 2.5rem;
+            gap: 40px;
         }
     }
 }
