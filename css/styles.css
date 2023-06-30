@@ -717,8 +717,8 @@ footer .container article .footer__socials {
   z-index: 1;
 }
 #awards .slider-wrapper .slider-nav a {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   border-radius: 50%;
   background-color: #4e054b;
 }/*# sourceMappingURL=styles.css.map */
